@@ -1,6 +1,6 @@
 # URL Shortener App :-
  - Frontend Live Link 🔗:  `https://url-shortener-by-prahlad.netlify.app/`
- - Backend (Server) Link 🔗:  `https://pk-sh.onrender.com`
+ - Backend (Server) Link 🔗:  `https://psh.onrender.com`
 
 # URL Shortener Backend App Documentation
 
@@ -32,7 +32,7 @@ The URL Shortener App is a service that allows users to convert lengthy URLs int
 - mongoose
 
 ### Installation
-1. Clone the repository. `git clone https://github.com/prahlad0x/Gurucool_Assignment/Server`
+1. Clone the repository. `git clone https://github.com/prahlad0x/Url_Shortener.git`
 2. Open the  terminal.
 3. Install dependencies: `npm install`
 4. Configure environment variables. `Port : 8808, MongoDB Url, Secrect_key, saltRound`
@@ -135,7 +135,7 @@ This documentation provides details on the frontend of the URL Shortener applica
 - Any Browser
 
 ### Installation
-1. Clone the repository. `git clone https://github.com/prahlad0x/Gurucool_Assignment/tree/main/ClientSide`
+1. Clone the repository. `git clone https://github.com/prahlad0x/Url_Shortener.git/tree/main/ClientSide`
 2. Open the index.html file with `live server` or `copy the path of file and run on Browser`
 
 ## 4. Usage
