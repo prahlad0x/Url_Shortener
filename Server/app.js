@@ -23,6 +23,9 @@ app.get("/:shortUrl", async (req, res) => {
     try {
       const { shortUrl } = req.params;
   
+      if (!shortUrl) {
+        return res.status(404).json({ message: "URL not Id found", isOk: false });
+      }
       const url = await Url.findOne({ shortUrl });
       if (!url) {
         return res.status(404).json({ message: "URL not found", isOk: false });
