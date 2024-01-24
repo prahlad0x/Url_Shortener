@@ -1,6 +1,6 @@
 # URL Shortener App :-
- - Frontend Live Link 🔗:  `https://url-shortener-by-prahlad.netlify.app/`
- - Backend (Server) Link 🔗:  `https://psh.onrender.com`
+ - Frontend Live Link 🔗:  `[https://url-shortener-by-prahlad.netlify.app/](https://url-shortener-by-prahlad.netlify.app/)`
+ - Backend (Server) Link 🔗:  `[https://psh.onrender.com](https://p-sh.onrender.com)`
 
 # URL Shortener Backend App Documentation
 
