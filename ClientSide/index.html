@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="./Css/index.css">
+    <link rel="stylesheet" href="./Css/toast.css">
+    <title>URL Shorter 🔗</title>
+</head>
+<body>
+    <nav><h1>Home</h1> <div> <img id='history' src="./images/clock (1).png" onclick="showHistory()" alt="history"><h2 onclick="logout()">Logout</h2></div> </nav>
+    <marquee id="marquee" behavior="scroll" direction="left">
+        Please have some patience as it takes time to retrieve data from the server. Our server is hosted on
+        <a target="_blank" href="https://dashboard.render.com/">Render.com</a>, so it may take some time to establish a connection.
+      </marquee>
+   <div  class="" id="snackbar">✓ Copied to clipboard</div>
+
+   <div class="mainCont">
+    <div class="secondary">
+        <div class="inpDiv">
+            <input type="url" id="urlInp" placeholder="Enter link here">
+            <button onclick='getUrl()' >Shorten Url</button>
+        </div>
+    
+    </div>
+    <div class="loaderDiv">
+        <p>Recents :</p>
+       <div>
+        <span class="loader"></span>
+       </div>
+    </div>
+    <div class="searches">
+        
+       
+    </div>
+   </div>
+</body>
+<script src="./Js/index.js">
+    
+</script>
+
+</html>
